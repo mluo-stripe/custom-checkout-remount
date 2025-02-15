@@ -5,7 +5,6 @@ const StripePaymentElement = () => {
   return (
     <PaymentElement options={{
       layout: 'accordion',
-      readonly: true
     }}/>
   );
 };
